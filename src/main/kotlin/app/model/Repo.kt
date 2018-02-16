@@ -44,7 +44,7 @@ data class Repo(
             .setInitialCommitRehash(rehash)
             .addAllEmails(emails)
             .addAllCommits(commits.map { it.getProto() })
-            .setMeta(meta)
+            .setMeta(meta.getProto())
             .build()
     }
 
