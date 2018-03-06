@@ -171,9 +171,9 @@ object Logger {
         else { "" } + e.message
         if (LEVEL >= ERROR) {
             println("[e] $finalMessage")
-            if (PRINT_STACK_TRACE) {
+            //if (PRINT_STACK_TRACE) {
                 e.printStackTrace()
-            }
+            //}
         }
         if (!logOnly) {
             Analytics.trackError(e)
