@@ -63,7 +63,6 @@ class CommonExtractor : ExtractorInterface {
             reversedMap["viml"] = listOf("vim")
             reversedMap["visualbasic"] = listOf("bas")
             reversedMap["visualbasicforapps"] = listOf("vba")
-            reversedMap["visualprolog"] = listOf("pro")
             reversedMap["vue"] = listOf("vue")
             reversedMap["wolframlanguage"] = listOf("nb","m")
             reversedMap["xtend"] = listOf("xtend")
